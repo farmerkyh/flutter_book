@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'dart:ffi' as ffi;
+import 'package:flutter/foundation.dart';
 
 import 'animalItem.dart';
 import 'cupertinoMain.dart';
@@ -12,11 +14,10 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    debugPrint("asdfasdfasdf================");
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
 
       //iPhone Design 화면
       //home: CupertinoMain(),
@@ -45,6 +46,15 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
   @override
   void initState() {
     super.initState();
+
+    // debugPrint("$Platform.isIOS");
+    // if (Platform.isIOS) {
+    //   //iOS
+
+    // } else if (Platform.isAndroid) {
+    //   //Android
+    // }
+
     controller = TabController(length: 2, vsync: this);
     animalList.add(Animal(animalName: "벌", kind: "곤충", imagePath: "repo/images/bee.png"));
     animalList.add(Animal(animalName: "고양이", kind: "포유류", imagePath: "repo/images/cat.png"));
