@@ -49,10 +49,10 @@
 
 #### 2. Widget 화면
  - Material Widget
- = https://docs.flutter.dev/development/ui/widgets/material
+ > https://docs.flutter.dev/development/ui/widgets/material
 
  - Cupertino Widget
- = https://docs.flutter.dev/development/ui/widgets/cupertino
+ > https://docs.flutter.dev/development/ui/widgets/cupertino
 
 ## 7. 
 
