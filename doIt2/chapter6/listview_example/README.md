@@ -1,3 +1,8 @@
+- 잠시 쉬었다 갈께요.
+- 읍스 이럴수가(Flutter, 왜 선택하지 못했나) : https://engineering.linecorp.com/ko/blog/flutter-pros-and-cons/
+- jobkrea : react - 1,900건,  flutter : 302건 (2022.11.16일 기준)
+- 희망은 다시 시작된다. : https://d2.naver.com/helloworld/3384599
+
 # 6장. Cupertino
 
 ## 1. Cupertino 명명
@@ -8,8 +13,8 @@
  - Material 디자인은 Android에 적용하기 위해 Google이 만든 디자인 규칙이다
 #### 2. Cupertino 
  - iPhone스러운 디자인을 적용하기 위해 Google에서 Cupertino 디자인팀이 만들었다.
-
 #### 3. 왜?
+
 ## 3. Cupertino 분류
  - 1. Cupertino icon
  - 2. Cupertino widget
@@ -223,6 +228,7 @@
  
 #### 2. PlatformWidget Widget
  - 플랫폼마다 다른 위젯을 보여주고 싶을 때 사용 하기에 적합하다.
+ - 생성되는  widget이 정해지지 않았을 때 유용하게 사용.
 ```dart
   PlatformWidget({
       Key? key,
