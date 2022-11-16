@@ -31,6 +31,12 @@
    - https://pub.dev/packages/cupertino_icons
    - https://api.flutter.dev/flutter/cupertino/CupertinoIcons-class.html#constants
 
+#### 3. Cupertino icon Library 사용하기
+```dart
+ - pubspec.yaml
+   cupertino_icons: ^1.0.2   : default로 추가되어져 있음 
+```
+
 #### 3. Cupertino/Material icons 비교
 <img src="./README_images/cupertino_110.png">
 
@@ -43,14 +49,10 @@
 
 #### 2. Widget 화면
  - Material Widget
- https://docs.flutter.dev/development/ui/widgets/material
+ . https://docs.flutter.dev/development/ui/widgets/material
 
  - Cupertino Widget
- https://docs.flutter.dev/development/ui/widgets/material
- 
-## 6. Cupertino icon Library 사용시
- - pubspec.yaml
-   cupertino_icons: ^1.0.2   : default로 추가되어져 있음 
+  . https://docs.flutter.dev/development/ui/widgets/cupertino
 
 ## 7. 
 
