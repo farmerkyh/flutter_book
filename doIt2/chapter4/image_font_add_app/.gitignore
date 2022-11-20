@@ -1,3 +1,10 @@
+#farmer add
+/build/
+/linux/
+/macos/
+/web/
+/windows/
+
 # Miscellaneous
 *.class
 *.log
@@ -42,10 +49,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-#farmer add
-/build/
-/linux/
-/macos/
-/web/
-/windows/
