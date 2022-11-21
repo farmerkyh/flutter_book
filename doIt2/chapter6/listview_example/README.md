@@ -33,8 +33,8 @@
 
 ## 4. Cupertino icon
 #### 1. Material icons
-```dart
  - https://fonts.google.com/icons?selected=Material+Icons
+```dart
    . style적용 후
    . download 2가지 (svg, png) type 으로 download가능
    . svg : SVG는 Scalable Vector Graphics라는 뜻인데, 번역하자면 확장가능한 벡터 그래픽이다. 
@@ -61,7 +61,7 @@
    cupertino_icons: ^1.0.2   : default로 추가되어져 있음 
 ```
 
-#### 4. Cupertino/Material icons 비교
+#### 4. Material/Cupertino icons 비교
 <img src="./README_images/cupertino_110.png">
 
 ## 5. Cupertino Widget
@@ -84,6 +84,7 @@
  > https://docs.flutter.dev/development/ui/widgets/cupertino
 
 ## 6. 동물리스트 화면 비교해 보기
+ - Android style                     iOS Style
 <img src="./README_images/cupertino_200.png" height="1000">
 
 ## 7. OS 구분 방법
@@ -310,6 +311,3 @@
       cupertino: (_, __) => CupertinoIconButtonData(),
   )
 ```
-
-
- - skia 엔진?????
