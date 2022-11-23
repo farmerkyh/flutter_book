@@ -1,5 +1,12 @@
 # 6장. iOS 스타일로 플러터 앱 만들기 (Cupertino)
 
+> 잠시 쉬었다 갈께요.
+> 읍스 이럴수가(Flutter, 왜 선택하지 못했나) : https://engineering.linecorp.com/ko/blog/flutter-pros-and-cons/
+> (2019.8) (각종 Library버전이 v0. 대 라는거)
+> jobkrea : react(웹+앱) - 1,900건,  flutter : 302건 (2022.11.16일 기준)
+> 희망은 다시 시작된다. : https://d2.naver.com/helloworld/3384599  
+> (2021.11)
+
 ## 1. Cupertino 명명
 <img src="./README_images/cupertino_100.png">
 
