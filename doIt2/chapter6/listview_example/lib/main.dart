@@ -18,10 +18,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue),
 
       //iPhone Design 화면
-      //home: CupertinoMain(),
+      home: CupertinoMain(),
 
       //Android Design 화면
-      home: MyHomePage(title: "안드스타일"),
+      //home: MyHomePage(title: "안드스타일"),
     );
   }
 }
