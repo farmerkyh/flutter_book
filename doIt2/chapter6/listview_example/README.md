@@ -1,10 +1,10 @@
 # 6장. iOS 스타일로 플러터 앱 만들기 (Cupertino)
 
-> 잠시 쉬었다 갈께요.
-> 읍스 이럴수가(Flutter, 왜 선택하지 못했나) : https://engineering.linecorp.com/ko/blog/flutter-pros-and-cons/
-> (2019.8) (각종 Library버전이 v0. 대 라는거)
-> jobkrea : react(웹+앱) - 1,900건,  flutter : 302건 (2022.11.16일 기준)
-> 희망은 다시 시작된다. : https://d2.naver.com/helloworld/3384599  
+> 잠시 쉬었다 갈께요.   
+> 읍스 이럴수가(Flutter, 왜 선택하지 못했나) : https://engineering.linecorp.com/ko/blog/flutter-pros-and-cons/   
+> (2019.8) (각종 Library버전이 v0. 대 라는거)   
+> jobkrea : react(웹+앱) - 1,900건,  flutter : 302건 (2022.11.16일 기준)   
+> 희망은 다시 시작된다. : https://d2.naver.com/helloworld/3384599     
 > (2021.11)
 
 ## 1. Cupertino 명명
@@ -26,7 +26,7 @@
 #### 1. Skia 특징
  - Skia는 C++로 개발된 오픈 소스 2D 그래픽 라이브러리로 OpenGL의 Canvas를 사용해 렌더링을 한다. 
  - Skia는 2005년에 구글에 인수되었다.
- - Flutter는 Skia engine을 통해 Widget을 생성하고 제거한다
+ - Flutter는 Skia engine을 통해 Widget을 렌더링하고 제거한다
  - Flutter에서 Dart로 코드를 작성하면 안드로이드나 IOS의 컴포넌트들을 거치지 않고, 바로 화면을 렌더링 할 수 있다. 
 
 #### 2. OpenGL
@@ -38,7 +38,7 @@
  - 여러 플랫폼들에서 사용하는 얼굴 인식, 개체 감지, 이미지 검색 등의 기능들을 개발 할 때 사용되는 라이브러리이다.
  - 이 외에도 하이레벨 툴인 유니티나 언리얼 엔진, Prodcessing, 3D Max 등이 있다.
 
-## 4. Cupertino icon
+## 5. Cupertino icon
 #### 1. Material icons
  - https://fonts.google.com/icons?selected=Material+Icons
 ```dart
@@ -71,7 +71,7 @@
 #### 4. Material/Cupertino icons 비교
 <img src="./README_images/cupertino_110.png">
 
-## 5. Cupertino Widget
+## 6. Cupertino Widget
 #### 1. Cupertino Widget사용 시 import
 ```dart
   import 'package:flutter/cupertino.dart';
@@ -90,11 +90,11 @@
  - Cupertino Widget
  > https://docs.flutter.dev/development/ui/widgets/cupertino
 
-## 6. 동물리스트 화면 비교해 보기
- - Android style                     iOS Style
+## 7. 동물리스트 화면 비교해 보기
+ - Android style .......... | ............... iOS Style
 <img src="./README_images/cupertino_200.png" height="1000">
 
-## 7. OS 구분 방법
+## 8. OS 구분 방법
 #### 1. foundation.dart 사용
 ```dart
     import 'package:flutter/foundation.dart';
@@ -195,7 +195,7 @@
  - 실행결과
 <img src="./README_images/cupertino_400.png">
 
-## 8. Platform Widgets 들을 이용한 개발방법
+## 9. Platform Widgets 들을 이용한 개발방법
 #### 1. 정의
  - Flutter platfrom Widgets 라이브러리는 두 가지의 OS를 인식하며 각기 다른 UI를 제공할 수 있게 해 준다.
 
@@ -247,7 +247,7 @@
 
 #### 3. PlatformApp Widget
  - Material에서 MaterialApp을 사용하거나 Cupertino에서 CupertinoApp을 사용하기 위한 최상위 위젯이다.
- - Android, iOS에서 각각 다른 Theme을 원할 경우 아래의 코드처럼 MaterialAppData, 
+ - Android, iOS에서 각각 다른 Theme을 원할 경우 아래의 코드처럼 MaterialAppData,    
    CupertinoAppData에서 Theme의 값을 입력하면 깔끔하게 코드를 작성할 수 있다.
  - PlatformApp에서 Home은 공통으로 사용하고 Android,iOS Theme을 따로 설정하는것이 맞는거 같다.
 
