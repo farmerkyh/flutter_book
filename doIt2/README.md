@@ -1,3 +1,10 @@
+** Do.it github 소스 받아서 오류 발생 시 아래 명령어 실행하면 오류 발생 안함.
+$ flutter.bat pub upgrade --major-versions    
+android 폴더 제거후    
+$ flutter.bat create .    
+하시면 아마도 실행 될거에요.    
+
+
 # Do it! 플러터 앱 프로그래밍(개정판)(SDK 2.x)
 
 ## 첫째마당 | 헬로 플러터
