@@ -6,7 +6,7 @@ class SubDetail extends StatefulWidget {
 }
 
 class _SubDetail extends State<SubDetail> {
-  List<String> todoList = new List.empty(growable: true);
+  List<String> todoList = List.empty(growable: true);
 
   @override
   void initState() {
@@ -34,8 +34,7 @@ class _SubDetail extends State<SubDetail> {
                 style: TextStyle(fontSize: 30),
               ),
               onTap: () {
-                Navigator.of(context)
-                    .pushNamed('/third', arguments: todoList[index]);
+                Navigator.of(context).pushNamed('/third', arguments: todoList[index]);
               },
             ),
           );
@@ -54,7 +53,7 @@ class _SubDetail extends State<SubDetail> {
   void _addNavigation(BuildContext context) async {
     final result = await Navigator.of(context).pushNamed('/second');
     //if (result != null && result != '') {
-      
+
     setState(() {
       todoList.add(result as String);
     });
